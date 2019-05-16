@@ -1,5 +1,5 @@
 function Home() {
-  return <div>Welcome to Next.js!</div>;
+  return <h1>Dishwashers</h1>;
 }
 
 export default Home;
