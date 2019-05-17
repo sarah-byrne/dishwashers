@@ -8,3 +8,10 @@ displays dishwasher information obtained from an API
 2. How to use Mono
 3. Understand more about Next.js - what does that give us over Create React App?
    - it does routing for you
+
+# ToDo
+
+1. Change ProductGrid.test to be a snapshot test instead of find text.
+2. Remove dishwashers h1 from ProductGrid
+3. Create jest tests for index.js
+4. Implement ProductSummary into ProductGrid.

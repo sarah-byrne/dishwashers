@@ -3,7 +3,7 @@ import { Component } from "react";
 
 class ProductGrid extends Component {
   render() {
-    return <div id="dishwasherSummary1">£1000</div>;
+    return <h1 id="dishWasherGrid">Dishwashers</h1>;
   }
 }
 
