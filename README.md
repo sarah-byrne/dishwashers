@@ -8,6 +8,7 @@ displays dishwasher information obtained from an API
 2. How to use Mono
 3. Understand more about Next.js - what does that give us over Create React App?
    - it does routing for you
+4. Go through React official docs and think of ways to practise the concepts within this project
 
 # ToDo
 
