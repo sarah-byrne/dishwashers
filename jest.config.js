@@ -4,5 +4,6 @@ module.exports = {
     "<rootDir>/.next/",
     "<rootDir>/node_modules/",
     "<rootDir>/cypress/"
-  ]
+  ],
+  snapshotSerializers: ["enzyme-to-json/serializer"]
 };

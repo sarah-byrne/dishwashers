@@ -1,6 +1,8 @@
 import ProductGrid from "./ProductGrid";
+import React from "react";
 import { shallow } from "enzyme";
 import ProductSummary from "../ProductSummary/ProductSummary";
+import { renderer } from "react-test-renderer";
 
 describe("ProductGrid", () => {
   const productList = [
@@ -131,11 +133,9 @@ describe("ProductGrid", () => {
     }
   ];
 
-  it("displays Dishwashers Header", () => {
-    const grid = shallow(<ProductGrid products={productList} />);
-    const header = grid.find("h1");
-
-    expect(header.text()).toBe("Dishwashers");
+  it("renders the component", () => {
+    const wrapper = shallow(<ProductGrid products={productList} />);
+    expect(wrapper).toMatchSnapshot();
   });
   it("displays product summaries", () => {
     const grid = shallow(<ProductGrid products={productList} />);

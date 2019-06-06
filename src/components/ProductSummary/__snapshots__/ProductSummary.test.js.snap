@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductSummary displays the price 1`] = `
+<div
+  id="dishwasherSummary0"
+>
+  £
+  10
+</div>
+`;

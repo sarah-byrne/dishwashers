@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductGrid renders the component 1`] = `
+<div>
+  <ProductSummary
+    index={0}
+    key="0"
+    product={
+      Object {
+        "additionalServices": Array [
+          "2 year guarantee included",
+          "5 years Added Care for your home appliance (includes guarantee period) £100.00",
+        ],
+        "ageRestriction": 0,
+        "availabilityMessage": "",
+        "averageRating": 3.6364,
+        "brand": "Indesit",
+        "categoryQuickViewEnabled": false,
+        "code": "88701901",
+        "colorSwatchSelected": 0,
+        "colorSwatches": Array [],
+        "colorWheelMessage": "",
+        "compare": true,
+        "defaultSkuId": "233326789",
+        "directorate": "Electronics & Home Technology Directorat",
+        "displaySpecialOffer": "",
+        "dynamicAttributes": Object {
+          "adjustableracking": "YES",
+          "automaticloadadjustment": "NO",
+          "childlock": "NO",
+          "cutlerybasket": "Basket",
+          "delicatewash": "NO",
+          "digitaldisplay": "NO",
+          "dishwashersize": "Full",
+          "dryingperformance": "A",
+          "dryingsystem": "Natural",
+          "energyconsumptionpercycle": "1.04kWh/cycle",
+          "estimatedannualenergyconsumption": "295kWh",
+          "estimatedannualwaterconsumption": "3080L",
+          "floodprotection": "YES",
+          "homeappliancetype": "Dishwashers",
+          "homearea": "Clean",
+          "integratedorfreestanding": "Integrated",
+          "noiselevel": "49dB",
+          "noofprograms": "4",
+          "placesettings": "13",
+          "programsequenceindicator": "NO",
+          "quickwash": "NO",
+          "rinseaidindicator": "YES",
+          "saltlevelindicator": "YES",
+          "timerdelay": "NO",
+          "timeremainingindicator": "NO",
+          "washperformance": "A",
+          "waterconsumptionstandardcycle": "11L",
+        },
+        "emailMeWhenAvailable": false,
+        "fabric": "",
+        "features": Array [],
+        "image": "//johnlewis.scene7.com/is/image/JohnLewis/233326789?",
+        "isBundle": false,
+        "isInStoreOnly": false,
+        "isMadeToMeasure": false,
+        "isProductSet": false,
+        "nonPromoMessage": "",
+        "outOfStock": false,
+        "price": Object {
+          "currency": "GBP",
+          "now": "219.00",
+          "then1": "",
+          "then2": "",
+          "uom": "",
+          "was": "",
+        },
+        "productId": "1391191",
+        "promoMessages": Object {
+          "bundleHeadline": "",
+          "customPromotionalMessage": "",
+          "customSpecialOffer": Object {},
+          "offer": "",
+          "priceMatched": "",
+        },
+        "promotionalFeatures": Array [
+          Object {
+            "description": "Indesit DIF 04B1 Ecotime Fully Integrated Dishwasher, White installation guide",
+            "iconUrl": "//johnlewis.scene7.com/is/image/JohnLewis/electrical_med_icon?",
+            "linkUrl": "http://johnlewis.scene7.com/is/content/JohnLewis/233326789mnl1pdf",
+            "longDescription": "Indesit DIF 04B1 Ecotime Fully Integrated Dishwasher, White installation guide",
+            "title": "Indesit DIF 04B1 Ecotime Fully Integrated Dishwasher, White installation guide",
+          },
+          Object {
+            "description": "Rated A+ for energy",
+            "iconUrl": "//johnlewis.scene7.com/is/image/JohnLewis/energy_a_plus_ico?",
+            "linkUrl": "http://www.johnlewis.com/buying-guides/energy-efficiency-guide",
+            "longDescription": "",
+            "title": "Rated A+ for energy",
+          },
+          Object {
+            "description": "Click here! Product Tour",
+            "iconUrl": "//johnlewis.scene7.com/is/image/JohnLewis/producttour_170512_ico?",
+            "linkUrl": "http://isitetv.com/en062124193003068134159184209234-p4jl.htm",
+            "longDescription": "",
+            "title": "Click here! Product Tour",
+          },
+          Object {
+            "description": "",
+            "iconUrl": "",
+            "linkUrl": "http://johnlewis.scene7.com/is/content/JohnLewis/contact_centre_opening_hours_d2cpdf ",
+            "longDescription": "Disposal and installation services are not available online for this product. Please call 0345 604 8835 to order this product and arrange these services - <a href=\\"http://johnlewis.scene7.com/is/content/JohnLewis/contact_centre_opening_hours_d2cpdf\\">view opening hours</a>",
+            "title": "Disposal and installation is not available online for this product. Please call 0345 604 8835 to order this product and arrange these services - view opening hours.",
+          },
+        ],
+        "quickAddToBasket": Object {
+          "simpleAddToBasket": true,
+        },
+        "releaseDateTimestamp": 0,
+        "reviews": 11,
+        "swatchAvailable": true,
+        "swatchCategoryType": "",
+        "title": "Indesit DIF 04B1 Ecotime Fully Integrated Dishwasher, White",
+        "type": "product",
+      }
+    }
+  />
+</div>
+`;

@@ -5,6 +5,6 @@ describe("Product Grid", () => {
   });
   it("Displays a grid of dishwashers", () => {
     cy.visit("/");
-    cy.get("#dishwasherSummary1").contains("£1000");
+    cy.get("#dishwasherSummary0").contains("£219.00");
   });
 });
