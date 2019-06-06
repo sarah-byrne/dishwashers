@@ -4,6 +4,10 @@ exports[`ProductSummary displays the price 1`] = `
 <div
   id="dishwasherSummary0"
 >
+  <img
+    id="image0"
+    src="//johnlewis.scene7.com/is/image/JohnLewis/233326789?"
+  />
   £
   10
 </div>
