@@ -140,11 +140,15 @@ class ProductGrid extends Component {
 
   render() {
     return (
-      <div>
+      <ul className="grid1">
         {this.state.products.map((product, index) => {
-          return <ProductSummary key={index} index={index} product={product} />;
+          return (
+            <li key={index}>
+              <ProductSummary index={index} product={product} />
+            </li>
+          );
         })}
-      </div>
+      </ul>
     );
   }
 }

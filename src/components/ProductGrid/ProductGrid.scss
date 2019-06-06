@@ -1,0 +1,117 @@
+.grid1 {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @supports (display: grid) {
+    & {
+      display: none;
+      grid-gap: 0;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    // &.is-product-list,
+    // &.is-range-list {
+    //   @include breakpoint-between(320, small) {
+    //     grid-template-columns: repeat(2, 1fr);
+    //   }
+    // }
+
+    // @include breakpoint-between(small, 960) {
+    //   grid-template-columns: repeat(3, 1fr);
+    // }
+
+    // &.col3 {
+    //   @include breakpoint(960) {
+    //     grid-template-columns: repeat(3, 1fr);
+    //   }
+    // }
+
+    // &.col4 {
+    //   @include breakpoint(960) {
+    //     grid-template-columns: repeat(4, 1fr);
+    //   }
+    // }
+
+    // &.col5 {
+    //   @include breakpoint(960) {
+    //     grid-template-columns: repeat(4, 1fr);
+    //   }
+
+    //   @include breakpoint(1140) {
+    //     grid-template-columns: repeat(5, 1fr);
+    //   }
+    // }
+
+    // &.col6 {
+    //   @include breakpoint(960) {
+    //     grid-template-columns: repeat(6, 1fr);
+    //   }
+    // }
+  }
+
+  & > li {
+    box-sizing: border-box;
+    margin: 0;
+    padding: spacing(2);
+
+    // @include breakpoint(small) {
+    //   margin-bottom: spacing(4);
+    // }
+
+    // @include breakpoint-between(small, 960) {
+    //   flex-basis: calc((100% / 3) - 32px);
+    // }
+
+    // @supports (display: grid) {
+    //   padding-right: 0;
+    //   padding-left: 0;
+    //   margin-left: 0;
+    //   margin-right: 0;
+    // }
+  }
+
+  //   &.is-range-list > li {
+  //     background: #f7f7f7;
+  //   }
+
+  //   &.is-range-list > li,
+  //   &.is-product-list > li {
+  //     @include breakpoint-between(320, small) {
+  //       flex-basis: calc(50% - 24px);
+  //     }
+  //   }
+
+  //   &.col3 > li {
+  //     @include breakpoint(960) {
+  //       flex-basis: calc(90% / 3);
+  //     }
+  //   }
+
+  //   &.col4 > li {
+  //     @include breakpoint(960) {
+  //       flex-basis: calc(87% / 4);
+  //     }
+  //   }
+
+  //   &.col5 > li {
+  //     @include breakpoint(960) {
+  //       flex-basis: calc(90% / 4);
+  //     }
+
+  //     @include breakpoint(1140) {
+  //       flex-basis: calc(90% / 5);
+  //     }
+  //   }
+
+  //   &.col6 > li {
+  //     @include breakpoint(960) {
+  //       flex-basis: calc(90% / 6);
+  //     }
+  //   }
+  // }
+}

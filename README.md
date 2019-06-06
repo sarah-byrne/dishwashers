@@ -2,6 +2,12 @@
 
 displays dishwasher information obtained from an API
 
+# Where we are up to
+
+    We have all the data in the ProductSummary and completed unit testing of that component.   We have styled that component but are
+    struggling to style the ProductGrid.   We think this is because we haven't configured node-sass yet - we think we
+    need to follow instructions in https://github.com/zeit/next-plugins/tree/master/packages/next-sass
+
 # Learning questions
 
 1. What's the difference between js and jsx files? So far we have used js but are not sure whether we are missing out on anything.

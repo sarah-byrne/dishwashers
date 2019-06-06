@@ -1,0 +1,8 @@
+@import "node_modules/jl-ui-kit/src/_jlUiKit.scss";
+
+.summary {
+  @include display-as($body);
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
