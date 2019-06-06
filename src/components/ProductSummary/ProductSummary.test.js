@@ -12,13 +12,16 @@ describe("ProductSummary", () => {
   const summary = shallow(
     <ProductSummary product={product} key={0} index={0} />
   );
-  const displayedPrice = summary.find("#dishwasherSummary0");
+
+  it("displays the product summary", () => {
+    expect(summary).toMatchSnapshot();
+  });
 
   it("displays the price", () => {
     const price = "10";
+    const prodPrice = summary.find("#price0");
 
-    expect(summary).toMatchSnapshot();
-    expect(displayedPrice.text()).toEqual(`£${price}`);
+    expect(prodPrice.text()).toEqual(`£${price}`);
   });
 
   it("displays the image", () => {

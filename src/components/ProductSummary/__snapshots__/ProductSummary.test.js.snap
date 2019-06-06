@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ProductSummary displays the price 1`] = `
+exports[`ProductSummary displays the product summary 1`] = `
 <div
   id="dishwasherSummary0"
 >
@@ -8,7 +8,11 @@ exports[`ProductSummary displays the price 1`] = `
     id="image0"
     src="//johnlewis.scene7.com/is/image/JohnLewis/233326789?"
   />
-  £
-  10
+  <div
+    id="price0"
+  >
+    £
+    10
+  </div>
 </div>
 `;
