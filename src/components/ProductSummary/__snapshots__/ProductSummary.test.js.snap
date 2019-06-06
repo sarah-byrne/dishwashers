@@ -9,6 +9,11 @@ exports[`ProductSummary displays the product summary 1`] = `
     src="//johnlewis.scene7.com/is/image/JohnLewis/233326789?"
   />
   <div
+    id="title0"
+  >
+    Indesit DIF 04B1 Ecotime Fully Integrated Dishwasher, White
+  </div>
+  <div
     id="price0"
   >
     £
