@@ -1,8 +1,16 @@
 @import "node_modules/jl-ui-kit/src/_jlUiKit.scss";
 
 .summary {
-  @include display-as($body);
+  // @include display-as($body);
   position: relative;
-  width: 100%;
-  height: 100%;
+  padding: 48px;
+  border: solid 1px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  // width: 100%;
+  // height: 100%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
