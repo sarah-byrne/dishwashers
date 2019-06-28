@@ -1,3 +1,5 @@
+@import "node_modules/jl-ui-kit/src/_jlUiKit.scss";
+
 .grid1 {
   display: flex;
   flex-flow: row;
@@ -21,9 +23,9 @@
     //   }
     // }
 
-    // @include breakpoint-between(small, 960) {
-    //   grid-template-columns: repeat(3, 1fr);
-    // }
+    @include breakpoint-between(0, 960) {
+      grid-template-columns: repeat(3, 1fr);
+    }
 
     // &.col3 {
     //   @include breakpoint(960) {
@@ -57,7 +59,7 @@
   & > li {
     box-sizing: border-box;
     margin: 0;
-    padding: spacing(2);
+    padding: 0;
 
     // @include breakpoint(small) {
     //   margin-bottom: spacing(4);
